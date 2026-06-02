@@ -1,4 +1,0 @@
-
-git rm Script-Local
-git commit -m "Delete Script-Local"
-git push origin main
