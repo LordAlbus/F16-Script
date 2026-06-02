@@ -1,0 +1,26 @@
+local F16Config = {
+	PitchSpeed = math.rad(3000);
+	rollSpeed = math.rad(7500);
+	MaxSpeed = 150;
+	TakeoffSpeed = 50;
+	liftForce= 1e6;
+	enginePower = 400;
+	dragCoeff = 0.9;
+	gravityCoeff = 1.2;
+	ThrottelStep = 10;
+	AngelLimit = 70;
+	autoYaw = 2;
+	autoRollStrenght = 0.5;
+	MaxGroundPitch = 0;
+	MaxGroundRoll = 0;
+	
+	CrashSpeed = 80;
+	VerticalCrashSpeed = 60;
+	SafeLandingAngle = 12;
+	
+	GunRange = 800;
+	GunCooldown = 0.05;
+	sound = script["minigun sound"];
+}
+
+return F16Config
