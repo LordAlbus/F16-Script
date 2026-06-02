@@ -9,7 +9,7 @@ local Inputs = game:GetService("UserInputService")
 local Runservice = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 local fpLock = false
-wgmiaGMioa
+
 local OrientAttachment = nil
 local alingOrientation = nil
 local bodyVelocity = nil
